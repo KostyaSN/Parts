@@ -2,7 +2,8 @@ import React, { useEffect, useState } from 'react'
 import csvToJson from 'csvtojson'
 import './Table.css'
 
-const URL = 'https://docs.google.com/spreadsheets/d/e/' + process.env.REACT_APP_SHEET_ID + '/pub?output=csv';
+//const URL = 'https://docs.google.com/spreadsheets/d/e/' + process.env.REACT_APP_SHEET_ID + '/pub?output=csv';
+const URL = 'https://docs.google.com/spreadsheets/d/1nUm08qLjX4-aLNihYugs4vC9jbHgaCNygZE0VR7OIHo/pub?output=csv';
 
 export const Table = () => {
   
